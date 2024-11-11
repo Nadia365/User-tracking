@@ -71,6 +71,7 @@ The main query with the first subquery: paid_users which aims to extract all use
 	INNER JOIN paid_users_2 pu2
 	ON pu1.user_id=pu2.user_id
 ```
+![Question 2](https://img.shields.io/badge/Question-2-971901) 
 
 The next query aims to take the list of all relevant users I just described and obtain a list of all the relevant interactions they had with the front page. This data should be taken from the front_interactions table.
 ```sql
@@ -85,6 +86,7 @@ The next query aims to take the list of all relevant users I just described and 
 	fi.event_date < pu3.first_purchase_date
 
 ```
+![Question 3](https://img.shields.io/badge/Question-3-971901) 
 
 The following query is table_aliases, where we rename the URLs of the pages to simple keywords like Homepage or Pricing. 
 ```sql

@@ -127,3 +127,13 @@ CASE
 ```
 
 At this point, we have managed to create a list of the relevant interactions of every user. It contains the session ID during which the current interaction happens, the subscription type the user purchased, and the source and destination pages for this particular interaction. These pages are combined into one big string for every session using CONCAT() and GROUP_CONCAT() to concant the pages visited per session.
+
+## 💻 Key Highlight 
+This project helped me to have a better understanding about data exploration using SQL from theories to real life application.
+
+Some of the main areas covered in this case study, including:
+* **Sorting Values**
+* **Inspect Row Counts** 
+* **USE of CTE and subqueries**
+* **Join Use and string manipulation**
+* **Problem Solving** 
